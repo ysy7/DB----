@@ -1,0 +1,30 @@
+.nav{
+    height: 72px;
+    flex-shrink: 0;
+    background-color: #000fff;
+    text-align: center;
+    font-size: 25px;
+    line-height: 70px;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 30px;
+}
+#home{
+    color:#fff;
+    text-decoration-line: none;
+}
+.nav-menu{
+    margin-bottom: 20px;
+}
+#man, #woman, #kid{
+    text-decoration-line: none;
+    color: #746363;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.main{
+    background-color: red;
+
+}
