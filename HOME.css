@@ -43,12 +43,13 @@ a:hover{
     justify-content: center;
     margin: 40px 20px;
 } 
-#m1:hover{
+
+/*#m1:hover{
     width: 310px;
     height: 310px;
     margin-left: 10px;
     margin-top: -80px;
-} 
+} */
 .contents2{
     display: flex;
     justify-content: center;
@@ -68,3 +69,17 @@ a:hover{
     justify-content: center;
     margin: 40px 20px;
 } 
+
+
+
+.text1 {
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: #111100;
+    position: absolute;
+    opacity: 0;
+    transition: all ease 0.5s;
+  }
+.title1:hover + .text1 {
+    opacity: 1;
+  }
