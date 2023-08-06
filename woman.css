@@ -16,14 +16,14 @@
 .nav-menu{
     margin-bottom: 20px;
 }
-#kid{
+#woman{
     text-decoration-line: none;
     color: #000fff;
     font-weight: lighter;
     font-size: 20px;
     margin-left: 40px;
 }
-#man, #woman{
+#man, #kid{
     text-decoration-line: none;
     color: #746363;
     font-weight: lighter;
@@ -34,7 +34,7 @@
     display: flex;
     justify-content: center;
 }
-#k1,#k2,#k3,#k4{
+#w1,#w2,#w3,#w4{
     width: 300px;
     height: 300px;
     margin-left: 10px;
@@ -49,7 +49,7 @@
     justify-content: center;
     margin: 40px 20px;
 } 
-#k1:hover{
+#w1:hover{
     width: 310px;
     height: 310px;
     margin-left: 10px;
@@ -59,7 +59,7 @@
     display: flex;
     justify-content: center;
 }
-#k5,#k6,#k7,#k8{
+#w5,#w6,#w7,#w8{
     width: 300px;
     height: 300px;
     margin-left: 10px;

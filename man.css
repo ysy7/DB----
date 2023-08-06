@@ -30,7 +30,47 @@
     font-size: 20px;
     margin-left: 40px;
 }
-
-.main{
-    background-color: pink;
+.contents1{
+    display: flex;
+    justify-content: center;
 }
+#m1,#m2,#m3,#m4{
+    width: 300px;
+    height: 300px;
+    margin-left: 10px;
+    margin-top: -25px;
+}
+.content1,.content2,.content3,.content4{
+    width: 330px;
+    height: 310px;
+    background-color: #ededed;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 40px 20px;
+} 
+#m1:hover{
+    width: 310px;
+    height: 310px;
+    margin-left: 10px;
+    margin-top: -80px;
+} 
+.contents2{
+    display: flex;
+    justify-content: center;
+}
+#m5,#m6,#m7,#m8{
+    width: 300px;
+    height: 300px;
+    margin-left: 10px;
+    margin-top: -25px;
+}
+.content5,.content6,.content7,.content8{
+    width: 330px;
+    height: 310px;
+    background-color: #ededed;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 40px 20px;
+} 
