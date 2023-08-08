@@ -26,9 +26,7 @@
 		   ,{category:'kid',id:'21',image:'k5.png',title:'Adidas',comment:'Adidas Yeezy Slide Bone 2022'}
 		   ,{category:'kid',id:'22',image:'k6.png',title:'Burberry',comment:'Burberry Icon Stripe Logo Print Cotton Gabardine Sneakers Optic White'}
 		   ,{category:'kid',id:'23',image:'k7.png',title:'Nike',comment:'Nike Dunk Low Retro Black'}
-		   ,{category:'kid',id:'24',image:'k8.png',title:'Nike',comment:'Nike Air Zoom Alphafly Next% Flyknit Rawdacious
-
-		}
+		   ,{category:'kid',id:'24',image:'k8.png',title:'Nike',comment:'Nike Air Zoom Alphafly Next% Flyknit Rawdacious'}
 	   ];
 	   
 	   $(document).ready(function(){//jquery 화면로딩(html을 모두 불러온후)이 끝나면 스크립트 실행
