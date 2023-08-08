@@ -1,32 +1,34 @@
 		//데이터 정의 JSON 타입으로 작성(추후 DB 연동시 DB 데이터로 대체함)
 		//신발 설명은 일단 여기서 수정하면 됨
 		const data = [
-			{category:'man',id:'01',image:'m1.png',title:'남자신발1',comment:'[남성]설명1'}
-		   ,{category:'man',id:'02',image:'m2.png',title:'남자신발2',comment:'[남성]설명2'}
-		   ,{category:'man',id:'03',image:'m3.png',title:'남자신발3',comment:'[남성]설명3'}
-		   ,{category:'man',id:'04',image:'m4.png',title:'남자신발4',comment:'[남성]설명4'}
-		   ,{category:'man',id:'05',image:'m5.png',title:'남자신발5',comment:'[남성]설명5'}
-		   ,{category:'man',id:'06',image:'m6.png',title:'남자신발6',comment:'[남성]설명6'}
-		   ,{category:'man',id:'07',image:'m7.png',title:'남자신발7',comment:'[남성]설명7'}
-		   ,{category:'man',id:'08',image:'m8.png',title:'남자신발8',comment:'[남성]설명8'}
+			{category:'man',id:'01',image:'m1.png',title:'Adidas',comment:'Adidas Yeezy Foam RNNR MX Cinder'}
+		   ,{category:'man',id:'02',image:'m2.png',title:'Jordan',comment:'Jordan 1 Retro Low OG Black Toe'}
+		   ,{category:'man',id:'03',image:'m3.png',title:'Asics',comment:'Asics Gel-Kayano 14 Cream Black'}
+		   ,{category:'man',id:'04',image:'m4.png',title:'Nike',comment:'Nike Air Force 1 07 WB Flax'}
+		   ,{category:'man',id:'05',image:'m5.png',title:'New Balance',comment:'New Balance 530 White Silver'}
+		   ,{category:'man',id:'06',image:'m6.png',title:'Nike x Supreme',comment:'Nike x Supreme Air Force 1 Low White'}
+		   ,{category:'man',id:'07',image:'m7.png',title:'Jordan 1 x Travis Scott',comment:'Jordan 1 x Travis Scott Retro Low OG SP Sail and Ridgerock'}
+		   ,{category:'man',id:'08',image:'m8.png',title:'Oofos',comment:'Oofos OOriginal Black'}
 
-		   ,{category:'woman',id:'09',image:'w1.png',title:'여자신발1',comment:'[여성]설명1'}
-		   ,{category:'woman',id:'10',image:'w2.png',title:'여자신발2',comment:'[여성]설명2'}
-		   ,{category:'woman',id:'11',image:'w3.png',title:'여자신발3',comment:'[여성]설명3'}
-		   ,{category:'woman',id:'12',image:'w4.png',title:'여자신발4',comment:'[여성]설명4'}
-		   ,{category:'woman',id:'13',image:'w5.png',title:'여자신발5',comment:'[여성]설명5'}
-		   ,{category:'woman',id:'14',image:'w6.png',title:'여자신발6',comment:'[여성]설명6'}
-		   ,{category:'woman',id:'15',image:'w7.png',title:'여자신발7',comment:'[여성]설명7'}
-		   ,{category:'woman',id:'16',image:'w8.png',title:'여자신발8',comment:'[여성]설명8'}
+		   ,{category:'woman',id:'09',image:'w1.png',title:'Colecole',comment:'Colecole New Wave White'}
+		   ,{category:'woman',id:'10',image:'w2.png',title:'Miu Miu',comment:'Miu Miu Satin Ballerinas Pumps Toe Black'}
+		   ,{category:'woman',id:'11',image:'w3.png',title:'Adidas',comment:'Adidas Bermuda Glow Pink'}
+		   ,{category:'woman',id:'12',image:'w4.png',title:'Adidas',comment:'Adidas Superstar Core Black White'}
+		   ,{category:'woman',id:'13',image:'w5.png',title:'Onitsuka',comment:'Onitsuka Tiger Mexico 66 White Silver'}
+		   ,{category:'woman',id:'14',image:'w6.png',title:'New Balance',comment:'New Balance 574 Legacy Navy'}
+		   ,{category:'woman',id:'15',image:'w7.png',title:'Adidas',comment:'Adidas Gazelle Dark Green Cream White'}
+		   ,{category:'woman',id:'16',image:'w8.png',title:'Nike',comment:'Nike Air Force 1 07 Low Triple Black'}
 		   
-		   ,{category:'kid',id:'17',image:'k1.png',title:'아동신발1',comment:'[아동]설명1'}
-		   ,{category:'kid',id:'18',image:'k2.png',title:'아동신발2',comment:'[아동]설명2'}
-		   ,{category:'kid',id:'19',image:'k3.png',title:'아동신발3',comment:'[아동]설명3'}
-		   ,{category:'kid',id:'20',image:'k4.png',title:'아동신발4',comment:'[아동]설명4'}
-		   ,{category:'kid',id:'21',image:'k5.png',title:'아동신발5',comment:'[아동]설명5'}
-		   ,{category:'kid',id:'22',image:'k6.png',title:'아동신발6',comment:'[아동]설명6'}
-		   ,{category:'kid',id:'23',image:'k7.png',title:'아동신발7',comment:'[아동]설명7'}
-		   ,{category:'kid',id:'24',image:'k8.png',title:'아동신발8',comment:'[아동]설명8'}
+		   ,{category:'kid',id:'17',image:'k1.png',title:'Golden Goose',comment:'Golden Goose Superstar White Navy Heel Tab Sneakers'}
+		   ,{category:'kid',id:'18',image:'k2.png',title:'Crocs',comment:'Crocs Classic Crystals Pearls Clog White'}
+		   ,{category:'kid',id:'19',image:'k3.png',title:'Burberry',comment:'Burberry Vintage Check Cotton Leather Sneakers Archive Beige'}
+		   ,{category:'kid',id:'20',image:'k4.png',title:'UGG',comment:'UGG Classic Clear Mini II Natural Black'}
+		   ,{category:'kid',id:'21',image:'k5.png',title:'Adidas',comment:'Adidas Yeezy Slide Bone 2022'}
+		   ,{category:'kid',id:'22',image:'k6.png',title:'Burberry',comment:'Burberry Icon Stripe Logo Print Cotton Gabardine Sneakers Optic White'}
+		   ,{category:'kid',id:'23',image:'k7.png',title:'Nike',comment:'Nike Dunk Low Retro Black'}
+		   ,{category:'kid',id:'24',image:'k8.png',title:'Nike',comment:'Nike Air Zoom Alphafly Next% Flyknit Rawdacious
+
+		}
 	   ];
 	   
 	   $(document).ready(function(){//jquery 화면로딩(html을 모두 불러온후)이 끝나면 스크립트 실행
